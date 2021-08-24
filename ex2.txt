@@ -1,0 +1,16 @@
+ 1021  defaults write com.apple.screencapture disable-shadow -bool false ; killall SystemUIServer
+ 1022  defaults write com.apple.finder AppleShowAllFiles -bool TRUE
+ 1023  killall Finder
+ 1024  say "Hi, Gleb"
+ 1025  history
+ 1026  yes > /dev/null &
+ 1027  yes > /dev/null & yes > /dev/null & yes > /dev/null & yes /dev/null &
+ 1028  killall yes
+ 1029  defaults write com.apple.PowerChime ChimeOnAllHardware -bool TRUE; open /System/Library/CoreServices/PowerChime.app &
+ 1030  defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
+ 1031  defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 7
+ 1032  history > ex2.txt
+ 1033  git add .
+ 1034  ls
+ 1035  cd week1
+ 1036  ls
