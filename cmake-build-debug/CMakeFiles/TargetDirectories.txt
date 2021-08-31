@@ -1,0 +1,3 @@
+/Users/amoriodi/CLionProjects/os-course/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/amoriodi/CLionProjects/os-course/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/amoriodi/CLionProjects/os-course/cmake-build-debug/CMakeFiles/os_course.dir
