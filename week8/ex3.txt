@@ -1,0 +1,52 @@
+Last login: Fri Oct  8 12:27:14 on ttys001
+➜ ~  vm_stat
+Mach Virtual Memory Statistics: (page size of 4096 bytes)
+Pages free:                               60247.
+Pages active:                           1238960.
+Pages inactive:                         1209372.
+Pages speculative:                        31248.
+Pages throttled:                              0.
+Pages wired down:                       1018754.
+Pages purgeable:                         101958.
+"Translation faults":                8979895065.
+Pages copy-on-write:                  633899177.
+Pages zero filled:                   3213572087.
+Pages reactivated:                     59899978.
+Pages purged:                          30983340.
+File-backed pages:                       679884.
+Anonymous pages:                        1799696.
+Pages stored in compressor:             2640604.
+Pages occupied by compressor:            635259.
+Decompressions:                        54493456.
+Compressions:                         123655622.
+Pageins:                               79379053.
+Pageouts:                                955222.
+Swapins:                               16802341.
+Swapouts:                              19057640.
+➜ ~  vm_stat§
+zsh: command not found: vm_stat§
+Processes: 588 total, 3 running, 585 sleeping, 2718 threads            22:02:39
+Load Avg: 2.44, 2.33, 2.34  CPU usage: 2.96% user, 4.10% sys, 92.93% idle
+SharedLibs: 392M resident, 56M data, 35M linkedit.
+MemRegions: 268732 total, 3690M resident, 133M private, 1800M shared.
+PhysMem: 16G used (3866M wired), 138M unused.
+VM: 4537G vsize, 2321M framework vsize, 16847187(0) swapins, 19057640(0) swapout
+Networks: packets: 95416667/110G in, 49296252/12G out.
+Disks: 40808468/503G read, 49384862/571G written.
+
+PID    COMMAND      %CPU TIME     #TH   #WQ  #PORT MEM    PURG   CMPRS PGRP
+25456  top          8.4  00:00.90 1/1   0    26    5868K+ 0B     0B    25456
+96802  iTerm2       6.2  00:46.24 10    7    315+  59M-   33M+   11M   96802
+0      kernel_task  4.0  18:26:03 259/8 0    0     514M-  0B     0B    0
+137    WindowServer 3.2  30:01:00 15    6    6434+ 1583M- 114M   314M  137
+77354  Yandex Helpe 3.0  50:38.73 20    1    825   149M   0B     16M   385
+36526  Telegram     2.8  01:42:49 39    9    3522  767M+  8272K- 320M  36526
+75     JamfDaemon   1.4  02:10:26 3/1   2    76    56M    0B     15M-  75
+647    osqueryd     1.0  04:49:27 18    3    234   120M   0B     16M   607
+577    Yandex Helpe 0.6  02:47:01 9     1    149   116M   0B     64M   385
+25445  a.out        0.6  00:00.04 1     0    10    70M+   0B     0B    25445
+13835  Code Helper  0.5  08:40.89 16    1    62    114M   0B     104M- 13784
+65849  Code Helper  0.4  22:30.05 15    1    67    297M+  0B     174M  13784
+128    bluetoothd   0.4  10:30.11 5     3    727   6476K+ 0B     904K  128
+461    com.apple.ge 0.3  01:40.15 5     3    101+  13M+   0B     10M-  461
+473    useractivity 0.3  01:27.65 4     3    131   2240K+ 0B     476K  473

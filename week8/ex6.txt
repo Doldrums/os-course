@@ -1,0 +1,6 @@
+The number of possible ones for saving in the table is 8;
+Consider the next one. way:
+1. Offset size (aka page size) = 8KB = 8192 bits or 2 ^ 13 bits
+2.Used 3 bits for page table addressing and 13 bits for offset
+3. And the virtual address space itself in 16 bits is 2 ^ 16 or 65536 addresses
+4. So it is possible to store 2 ^ 3 records in the page table.

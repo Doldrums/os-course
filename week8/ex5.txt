@@ -1,0 +1,5 @@
+Physical adress:
+  The most obvious example is RAM.  This is the memory address of the physical cell.
+
+Virtual address:
+    On different devices there is such kind of Abstract address, which is mapped into physical one(eg. some part in RAM, some part in swapfile on harddisk)
