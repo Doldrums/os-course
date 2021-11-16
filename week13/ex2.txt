@@ -1,0 +1,20 @@
+Recovery
++ simple implementation
++ does not require a lot of checks during the work of the CPU
++ better than others if deadlocks is rare
+- not very effective
++ If significant number of processes will be deadlocked the utilization of the
+  CPU will decrease, the system will detect it, find deadlocked processes and kill
+  some of them to solve the problem.
+
+Prevention
++ is used in real systems and is good
++ If we want to build an effective system, a combination of prevention and recovery can be used.
++ It is implemented through an attack on the deadlock conditions.
+
+
+Avoidance
++ efficiently if the needs of the processes are known in advance.
++ (we can apply for example the Banker's Algorithm and avoid
+   deadlocks if it is possible)
+- is not a working model for real systems
